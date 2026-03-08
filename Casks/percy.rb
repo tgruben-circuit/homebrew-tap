@@ -3,7 +3,7 @@ cask "percy" do
   name "percy"
   desc "A mobile-friendly, web-based, multi-modal coding agent"
   homepage "https://github.com/tgruben-circuit/percy"
-  version "0.373.915512555"
+  version "0.381.91062602"
 
   livecheck do
     skip "Auto-generated on release."
@@ -12,12 +12,12 @@ cask "percy" do
   on_macos do
     on_intel do
       url "https://github.com/tgruben-circuit/percy/releases/download/v#{version}/percy_darwin_amd64"
-      sha256 "1309047417a4a3236d238ea6fd8c440ac7dc603fe2026a038ee7619ff446a244"
+      sha256 "efe5bd41b618fcc4b082cca0eff4732f85355f00bd9e19c490f4ff30f435f7ab"
       binary "percy_darwin_amd64", target: "percy"
     end
     on_arm do
       url "https://github.com/tgruben-circuit/percy/releases/download/v#{version}/percy_darwin_arm64"
-      sha256 "18f88077b0ca116d367bc9015c534e779d5e2ec08adfede52e2ded58a30727d7"
+      sha256 "403cb433a3d1fdc7771492e42266335194b1af411b48b064626be66672749be8"
       binary "percy_darwin_arm64", target: "percy"
     end
   end
@@ -25,12 +25,12 @@ cask "percy" do
   on_linux do
     on_intel do
       url "https://github.com/tgruben-circuit/percy/releases/download/v#{version}/percy_linux_amd64"
-      sha256 "7be47fdcd2130ac42f720510669ca33bd11e49b0f06c81cac16a864c57d4ccd7"
+      sha256 "319d686adccfdc8ebe326fbfc22e4bbd381200474ce2a3712980973be263cbc2"
       binary "percy_linux_amd64", target: "percy"
     end
     on_arm do
       url "https://github.com/tgruben-circuit/percy/releases/download/v#{version}/percy_linux_arm64"
-      sha256 "fd88bfc189073c0e11d659c942ec69bac28f5d54b594bdb13f787e8016c94433"
+      sha256 "0adb40dfce7efe5e7c1d21e18af7d60d4e3c45f09eee71067adf6a2c8517fa42"
       binary "percy_linux_arm64", target: "percy"
     end
   end
